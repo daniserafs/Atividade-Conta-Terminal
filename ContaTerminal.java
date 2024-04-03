@@ -16,8 +16,8 @@ public class ContaTerminal {
     System.out.println("Informe o nome do cliente:");
     String nome = sc.nextLine();
 
-    System.out.println("Olá " + nome + " obrigada por criar sua conta em nosso banco. Sua agencia é " + agencia
-        + ", conta 123" + conta + " e seu saldo R$ " + saldo + "já está disponível para saque.");
+    System.out.println("Olá, " + nome + " obrigada por criar sua conta em nosso banco. Sua agência é " + agencia
+        + ", conta " + conta + " e seu saldo R$ " + saldo + " já está disponível para saque.");
 
   }
 }
